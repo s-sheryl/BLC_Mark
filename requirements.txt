@@ -1,0 +1,9 @@
+pandas
+numpy
+requests
+jupyter
+matplotlib
+scipy
+streamlit
+pytest
+reportlab

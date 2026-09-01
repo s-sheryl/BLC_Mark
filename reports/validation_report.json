@@ -1,0 +1,28 @@
+{
+  "dataset": {
+    "file_path": "C:\\Users\\shery\\OneDrive\\Documents\\OncoDiscover\\data\\raw\\expression.csv",
+    "num_genes": 4,
+    "num_samples": 3,
+    "missing_values": 0,
+    "duplicate_genes": 0,
+    "empty_rows": 0,
+    "empty_columns": 0,
+    "validation_status": "passed",
+    "errors": [],
+    "warnings": []
+  },
+  "metadata": {
+    "file_path": "C:\\Users\\shery\\OneDrive\\Documents\\OncoDiscover\\data\\raw\\metadata.csv",
+    "num_samples": 3,
+    "matching_sample_ids": 3,
+    "missing_sample_ids": [],
+    "missing_fields": [
+      "sample_id"
+    ],
+    "validation_status": "failed",
+    "errors": [
+      "Missing required metadata field(s): ['sample_id']"
+    ],
+    "warnings": []
+  }
+}
