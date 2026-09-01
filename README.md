@@ -1078,4 +1078,5 @@ For me, the project has also been a bridge between my life-science background an
 **S.Sheryl**
 
 B.Sc. Genetics • Biotechnology • Zoology • Biochemistry
+
 BLC Mark is not intended to provide the final answer about which genes are biomarkers; it is an attempt to make the process of deciding which candidates deserve further investigation more transparent, reproducible, and inspectable.
