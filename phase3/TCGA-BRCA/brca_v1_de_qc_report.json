@@ -1,0 +1,52 @@
+{
+    "input_gene_count": 20530,
+    "tested_gene_count": 20530,
+    "filtered_gene_count": 0,
+    "initial_sample_count": 1218,
+    "included_sample_count": 1211,
+    "excluded_sample_count": 7,
+    "excluded_samples": [
+        {
+            "sample_id": "TCGA-AC-A6IX-06",
+            "reason": "Sample's group label ('Metastatic') matches neither the configured reference group ('Solid_Tissue_Normal') nor the configured comparison group ('Primary_Tumor').",
+            "stage": "comparison"
+        },
+        {
+            "sample_id": "TCGA-BH-A18V-06",
+            "reason": "Sample's group label ('Metastatic') matches neither the configured reference group ('Solid_Tissue_Normal') nor the configured comparison group ('Primary_Tumor').",
+            "stage": "comparison"
+        },
+        {
+            "sample_id": "TCGA-BH-A1ES-06",
+            "reason": "Sample's group label ('Metastatic') matches neither the configured reference group ('Solid_Tissue_Normal') nor the configured comparison group ('Primary_Tumor').",
+            "stage": "comparison"
+        },
+        {
+            "sample_id": "TCGA-BH-A1FE-06",
+            "reason": "Sample's group label ('Metastatic') matches neither the configured reference group ('Solid_Tissue_Normal') nor the configured comparison group ('Primary_Tumor').",
+            "stage": "comparison"
+        },
+        {
+            "sample_id": "TCGA-E2-A15A-06",
+            "reason": "Sample's group label ('Metastatic') matches neither the configured reference group ('Solid_Tissue_Normal') nor the configured comparison group ('Primary_Tumor').",
+            "stage": "comparison"
+        },
+        {
+            "sample_id": "TCGA-E2-A15E-06",
+            "reason": "Sample's group label ('Metastatic') matches neither the configured reference group ('Solid_Tissue_Normal') nor the configured comparison group ('Primary_Tumor').",
+            "stage": "comparison"
+        },
+        {
+            "sample_id": "TCGA-E2-A15K-06",
+            "reason": "Sample's group label ('Metastatic') matches neither the configured reference group ('Solid_Tissue_Normal') nor the configured comparison group ('Primary_Tumor').",
+            "stage": "comparison"
+        }
+    ],
+    "reference_group_size": 114,
+    "comparison_group_size": 1097,
+    "gene_filter_criterion": "No gene filtering configured for this analysis (Version 1 default: no filter applied).",
+    "statistical_method": "welch_t_test",
+    "multiple_testing_method": "benjamini_hochberg",
+    "significance_threshold": 0.05,
+    "notes": []
+}
