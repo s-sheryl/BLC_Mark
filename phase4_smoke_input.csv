@@ -1,0 +1,4 @@
+gene_id,tested,effect_size,effect_size_label,raw_p_value,adjusted_p_value,significant,missing_reason
+TP53,True,1.0,difference_in_group_means,0.001,0.01,True,
+BRCA1,True,1.0,difference_in_group_means,0.001,0.01,True,
+HIF3A,True,1.0,difference_in_group_means,0.001,0.01,True,
