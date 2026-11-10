@@ -1,0 +1,20 @@
+{
+  "analysis_id": "luad_phase5_v1",
+  "blc_mark_version": "1.0",
+  "cancer_cohort": "TCGA-LUAD",
+  "candidate_count": 16031,
+  "phase": 5,
+  "phase3_results_path": "results\\phase3\\TCGA-LUAD\\luad_v1_de_differential_expression_results.csv",
+  "phase4_evidence_path": "results\\phase4\\TCGA-LUAD\\evidence.csv",
+  "phase4_metadata_path": "results\\phase4\\TCGA-LUAD\\metadata.json",
+  "phase_name": "Biomarker Prioritization",
+  "ranking_performed": true,
+  "scoring_version": "1.0",
+  "tie_break_rule": "final_score descending; exact ties ordered by gene_id ascending for deterministic presentation",
+  "weights": {
+    "cancer_association": 0.25,
+    "clinical": 0.25,
+    "cross_cancer": 0.25,
+    "de": 0.25
+  }
+}

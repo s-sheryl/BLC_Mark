@@ -1,0 +1,26 @@
+{
+  "candidate_count": 15468,
+  "clinical_category_counts": {
+    "potential prognostic - favorable": 144,
+    "potential prognostic - unfavorable": 67,
+    "unprognostic - favorable": 4945,
+    "unprognostic - unfavorable": 4494,
+    "validated prognostic - favorable": 3,
+    "validated prognostic - unfavorable": 3
+  },
+  "cross_cancer_cohort_counts": {
+    "1": 559,
+    "2": 3814,
+    "3": 11095
+  },
+  "evidence_availability_counts": {
+    "available": 28745,
+    "no_support": 17626,
+    "unavailable": 33
+  },
+  "maximum_final_score": 0.7244455938449602,
+  "minimum_final_score": 0.0,
+  "prioritized_biomarker_count": 15468,
+  "scored_candidate_count": 15457,
+  "unavailable_score_count": 11
+}
