@@ -1,0 +1,107 @@
+{
+  "data_scope": "RNA-seq gene expression",
+  "environment": {
+    "pandas_version": "3.0.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.6",
+    "scipy_version": "1.18.1"
+  },
+  "executed_cohorts": [
+    "TCGA-BRCA",
+    "TCGA-LUAD",
+    "TCGA-COAD"
+  ],
+  "generated_at_utc": "2026-08-31T12:24:40.110763+00:00",
+  "generator_scripts": [
+    {
+      "modified_time_utc": "2026-08-28T06:28:24.813572+00:00",
+      "path": "scripts/generate_phase6_tables.py",
+      "sha256": "fcaf6c166bda9c2466f65efb6fa1100ff60a3f0d3f3b50ae5d39f0ec4cd449ea",
+      "size_bytes": 3777
+    },
+    {
+      "modified_time_utc": "2026-08-28T06:39:02.213378+00:00",
+      "path": "scripts/generate_phase6_figures.py",
+      "sha256": "bbdcdfac848d9dd36e81fbe96c9f6dbc67c4bc758e3be890266647098ea14eec",
+      "size_bytes": 4668
+    },
+    {
+      "modified_time_utc": "2026-08-28T06:49:33.435245+00:00",
+      "path": "scripts/generate_phase6_report.py",
+      "sha256": "6c38a11b3a27b1faf9cf37718de7ce625a29752fd7f9bad987221f20889c8598",
+      "size_bytes": 10971
+    },
+    {
+      "modified_time_utc": "2026-08-28T07:03:50.133718+00:00",
+      "path": "scripts/generate_phase6_manifest.py",
+      "sha256": "9a477629b2483e32f4bb7ac91bed053980c53465c968b060f3b53b32a447450d",
+      "size_bytes": 4387
+    }
+  ],
+  "phase": 6,
+  "phase6_outputs": [
+    {
+      "modified_time_utc": "2026-08-28T07:09:25.552350+00:00",
+      "path": "results/phase6/tables/brca_top_25_biomarkers.csv",
+      "sha256": "aeeafb5553bc36e503c69d301f89c4541b61fe9037fad524ea5665170be0e69f",
+      "size_bytes": 3981
+    },
+    {
+      "modified_time_utc": "2026-08-28T07:09:25.686056+00:00",
+      "path": "results/phase6/tables/luad_top_25_biomarkers.csv",
+      "sha256": "3d4412b82b5ba04387098283d7c5b42c850e895fa3802065c93bde8ea2e98ae2",
+      "size_bytes": 4049
+    },
+    {
+      "modified_time_utc": "2026-08-28T07:09:25.794572+00:00",
+      "path": "results/phase6/tables/coad_top_25_biomarkers.csv",
+      "sha256": "573180fd9d0c0d6930bf1545cb71451834a9cb9f02c2a64cacb67b282b46f872",
+      "size_bytes": 3985
+    },
+    {
+      "modified_time_utc": "2026-08-28T07:09:25.799084+00:00",
+      "path": "results/phase6/tables/combined_top_25_biomarkers.csv",
+      "sha256": "f6748619508fe787509355e8e3ea1a18bd9de984fab2a06f9acc5c1ebdf1ca1a",
+      "size_bytes": 11625
+    },
+    {
+      "modified_time_utc": "2026-08-28T07:09:29.286179+00:00",
+      "path": "results/phase6/figures/brca_top_15_biomarkers.png",
+      "sha256": "6f47a64f62ab54a3f5c328e33b13ceef9c0b17402b55bf335d3c243c5f79e448",
+      "size_bytes": 105633
+    },
+    {
+      "modified_time_utc": "2026-08-28T07:09:30.045860+00:00",
+      "path": "results/phase6/figures/luad_top_15_biomarkers.png",
+      "sha256": "09e947150236cbbc7fbd7a363104dba79b524ea3005783adce5694538affb0ae",
+      "size_bytes": 103302
+    },
+    {
+      "modified_time_utc": "2026-08-28T07:09:30.745461+00:00",
+      "path": "results/phase6/figures/coad_top_15_biomarkers.png",
+      "sha256": "532c3061e7e2090e609e3b0cc73ff9621cc904532fa8a0b66673e02f1ba2f1a8",
+      "size_bytes": 103149
+    },
+    {
+      "modified_time_utc": "2026-08-28T07:09:31.618219+00:00",
+      "path": "results/phase6/figures/cross_cohort_top_15_score_profiles.png",
+      "sha256": "9fb231dc24a3d4911b78efb49fda0ff66a428ed942e76eab7fedd3b63055294e",
+      "size_bytes": 151307
+    },
+    {
+      "modified_time_utc": "2026-08-31T12:24:39.236962+00:00",
+      "path": "results/phase6/report/BLC_Mark_V1_scientific_report.md",
+      "sha256": "2d9fbe66ba5875ce5a4eb9a3d0b9ff63632acc34bc8f715a44628a213eb3276e",
+      "size_bytes": 10424
+    }
+  ],
+  "phase_name": "Scientific Outputs & Reproducibility",
+  "project": "BLC Mark",
+  "reproducibility_notes": [
+    "Phase 6 tables are generated from frozen Phase 5 prioritization outputs.",
+    "Phase 6 figures are generated programmatically from prioritization results.",
+    "The scientific report is generated from project outputs rather than manually reconstructed values.",
+    "SHA-256 hashes permit integrity verification of the recorded release artifacts."
+  ],
+  "version": "1.0"
+}
